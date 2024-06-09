@@ -1,0 +1,110 @@
+/* ESTAN PAGINA SI ES RESPONSIVE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(40, 40, 40);
+    color: rgba(254, 192, 116, 0.576);
+}
+
+  /* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#subTitulo{
+    font-size: 50px;
+}
+h3{
+    text-align: center;
+}
+  /* Estilos para el contenedor principal */
+#titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  /* Estilos para el formulario */
+#formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#inputTexto {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 0.501);
+}
+
+#botonSubmit {
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;   
+}
+
+  /* Estilos para los botones */
+#botones {
+    text-align: center;
+}
+
+#boton-empezar,
+#boton-reset {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+  /* Estilos para las respuestas */
+#respuesta-img {
+    text-align: center;
+}
+
+#repuesta-nombre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  /* Estilos para los contadores */
+#contador,
+#best-score {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#contador{
+    font-size: 80px;
+}
+
+  /* Estilos para las secciones de la NASA */
+  #nasaImg,
+  #nasaInfo {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  /* Estilos para el resultado */
+#resultado {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+  /* Media queries para diferentes tamaños de pantalla */
+@media only screen and (max-width: 600px) {
+    #inputTexto {
+    width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+  #nasaImg img {
+      max-width: 100%; /* La imagen ocupará el ancho máximo del contenedor */
+      height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  }
+}
