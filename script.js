@@ -3,6 +3,7 @@ var botonEmpezar = document.querySelector('#boton-empezar')
 var inputTexto = document.querySelector('#inputTexto')
 var respuestaImg = document.querySelector('#respuesta-img')
 var respuestaCap = document.querySelector('#repuesta-nombre')
+var respuestaCorrecta = document.querySelector('#respuesta-correcta')
 var botonReset = document.querySelector('#boton-reset')
 var divNasaImg = document.querySelector('#nasaImg')
 var divNasaInfo = document.querySelector('#nasaInfo')
@@ -54,7 +55,7 @@ function generarFlag() {
             // Mostrar la bandera del país aleatorio en el elemento con ID "respuesta-img"
             respuestaImg.innerHTML = `<img src="${randomFlagUrl}" alt="Bandera de país aleatorio"/>`;
 
-            // Mostrar el nombre del país en un elemento <div> con ID "nombre-pais"
+            // Mostrar el nombre de la capital en un elemento <div> con ID "respuesta-nombre"
             respuestaCap.innerHTML = `<h1>Capital: ${randomCountryCapital}</h1>`;
             
             botonEmpezar.disabled = true
@@ -108,6 +109,7 @@ function obtenerValor() {
     }else{
         console.log("Pais incorrecto")
         divResultado.innerHTML = 'No has acertado!'
+        respuestaCorrecta.innerHTML = `El país correcto era: ${nombrePaisActual}`
     }
 }
 

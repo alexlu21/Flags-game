@@ -89,12 +89,13 @@ h3{
   }
 
   /* Estilos para el resultado */
-#resultado {
+#resultado,#respuesta-correcta {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
 }
+
 
   /* Media queries para diferentes tamaños de pantalla */
 @media only screen and (max-width: 600px) {
