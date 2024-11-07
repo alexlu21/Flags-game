@@ -2,7 +2,9 @@
 
 ¡Bienvenido a API Flags, el juego de adivinar banderas de países con un toque especial de la NASA!
 
-Este proyecto consiste en un juego interactivo desarrollado con HTML, CSS y JavaScript que desafía tus conocimientos sobre las banderas de diferentes países alrededor del mundo. Además, cada vez que juegues, podrás disfrutar de una imagen diaria de la NASA y su explicación. Cómo Jugar 🎮
+Este proyecto consiste en un juego interactivo desarrollado con HTML, CSS y JavaScript que desafía tus conocimientos sobre las banderas de diferentes países alrededor del mundo. Además, cada vez que juegues, podrás disfrutar de una imagen diaria de la NASA y su explicación. Principalmente hice esta página para demostrar el uso útil que se pueden hacer a la API's. 
+
+Cómo Jugar 🎮
 
 ## Inicio del Juego:
 - **Haz clic en el botón "Empezar" para comenzar una nueva partida.**
